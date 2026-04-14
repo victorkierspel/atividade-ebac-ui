@@ -1,1 +1,20 @@
 
+describe("Funcionalidade: Contato", () => {
+  it.only("Deve criar conta...", () => {
+    cy.visit("http://localhost:3000/register.html");
+    cy.get("#name").type("Victor Fernandes da Costa");
+    cy.get("#email").type("victor@teste.com");
+    cy.get("#phone").type("1140568826");
+    cy.get("#password").type("teste123");
+    cy.get("#confirm-password").type("teste123");
+    cy.get("#terms-agreement").click();
+    cy.get("#register-btn").click()
+    
+  });
+
+  it("Teste 2", () => {});
+
+  it("Teste 3", () => {});
+
+  it("Teste 4", () => {});
+});

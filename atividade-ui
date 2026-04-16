@@ -12,9 +12,5 @@ describe("Funcionalidade: Contato", () => {
     
   });
 
-  it("Teste 2", () => {});
-
-  it("Teste 3", () => {});
-
-  it("Teste 4", () => {});
+  
 });
